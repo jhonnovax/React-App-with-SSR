@@ -1,0 +1,39 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "author": "jhonfredynova",
+  "scripts": {
+    "build:dev": "webpack --progress --mode development",
+    "build:prod": "webpack --progress --mode production",
+    "start": "webpack-cli serve --mode development --open"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "styled-jsx": "^3.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.12.13",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.0",
+    "eslint": "^7.22.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.23.1",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^5.0.0",
+    "styled-jsx-plugin-sass": "^1.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.28.0",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-clean-dist-plugin": "^0.1.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
