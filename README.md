@@ -2,25 +2,25 @@
 
 App ready to run and deploy in production environments, using the best practices and techniques available in the industry.
 
-## Features
+# Features
 
 - Code linter
 - Code splitting
 - Server side rendering
 - Toggle to dark/light theme
 
-## Technologies
+# Technologies
 
 - Javascript (React, Node)
 - CSS (css-in-js using style-jsx-sass)
 - HTML
 
-## Tools
+# Tools
 
 - Eslint
 - Webpack
 
-## Scripts
+# Scripts
 
 In the project directory, you can run:
 
