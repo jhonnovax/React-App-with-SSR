@@ -34,7 +34,7 @@ expressApp.use('*', async (req, res) => {
     }
 
     const isDev = process.env.NODE_ENV !== 'production';
-    const statsFile = path.resolve(isDev ? '../dist/public' : './public', 'loadable-stats.json');
+    const statsFile = path.resolve(isDev ? './dist/public' : './public', 'loadable-stats.json');
     const extractor = new ChunkExtractor({ statsFile });
     const contentJsx = extractor.collectChunks(contentComponent);
     const contentTags = renderToString(contentJsx);          
@@ -54,10 +54,10 @@ expressApp.use('*', async (req, res) => {
           ${styleTags}
         </head>
         <body ${helmet.bodyAttributes.toString()}>
-          <div id="venpad-app">
+          <div id="app">
             ${contentTags}
           </div>
-          <script>window.initialState=${JSON.stringify(props)}</script>
+          <script>window.initialProps=${JSON.stringify(props)}</script>
           ${extractor.getScriptTags()}
         </body>
       </html>

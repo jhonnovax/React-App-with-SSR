@@ -1,6 +1,7 @@
-import NotFound from './pages/404';
-import HomePage from './pages/home-page';
-import AboutPage from './pages/about-page';
+import loadable from '@loadable/component';
+const NotFound = loadable(() => import('./pages/404'));
+const HomePage = loadable(() => import('./pages/home-page'));
+const AboutPage = loadable(() => import('./pages/about-page'));
 
 export default [
   {

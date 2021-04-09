@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch, matchPath } from 'react-router-dom';
+import { Route, Switch, matchPath } from 'react-router-dom';
 import routes from './routes';
 import Layout from './components/layout';
 
@@ -28,19 +28,17 @@ App.getServerData = async ({ path, query }) => {
 export default function App() {
 
   return (
-    <BrowserRouter>
-      <Layout>
-        <Switch>
-          {routes.map((route, index) => 
-            <Route 
-              key={index}
-              exact={route.exact} 
-              path={route.path}
-              component={route.component}>
-            </Route>
-          )}
-        </Switch> 
-      </Layout>
+    <Layout>
+      <Switch>
+        {routes.map((route, index) => 
+          <Route 
+            key={index}
+            exact={route.exact} 
+            path={route.path}
+            component={route.component}>
+          </Route>
+        )}
+      </Switch> 
       <style global jsx>{`
         * {
           box-sizing: border-box;
@@ -57,6 +55,6 @@ export default function App() {
           font-size: 1.6rem;
         }
       `}</style>
-    </BrowserRouter>
+    </Layout>
   );
 }

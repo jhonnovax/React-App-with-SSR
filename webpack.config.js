@@ -2,10 +2,8 @@ const path = require('path');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const CleanDistPlugin = require('webpack-clean-dist-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const LoadablePlugin = require('@loadable/webpack-plugin');
 const NodeExternals = require('webpack-node-externals');
-const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = (env, args) => {
   const isProduction = (args.mode === 'production');
@@ -16,18 +14,11 @@ module.exports = (env, args) => {
     {
       name: 'browser',
       devtool: (isProduction ? false : 'source-map'),
-      optimization: {
-        minimizer: [new TerserPlugin()],
-        splitChunks: {
-          chunks: 'all',
-          minChunks: 2
-        }
-      },
       plugins: [
         new CleanDistPlugin(),
         new BundleAnalyzerPlugin({ analyzerMode: 'static', openAnalyzer: false, reportFilename: 'dependencies.html' }),
         new CopyPlugin({ patterns: [{ from: './src/public/', to: './' }] }),
-        new HtmlWebpackPlugin({ template: './src/index.html' })
+        new LoadablePlugin()
       ],
       target: 'web',
       entry: ['@babel/polyfill', './src/index.js'],
@@ -69,6 +60,7 @@ module.exports = (env, args) => {
       target: 'node',
       entry: ['@babel/polyfill', './src/server.js'],
       output: {
+        chunkFilename: 'chunk-[contenthash].js',
         filename: `${filename}.js`,
         libraryTarget: 'commonjs2',
         path: path.resolve(__dirname, distFolder),
