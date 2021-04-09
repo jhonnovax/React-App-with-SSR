@@ -1,17 +1,16 @@
 # About
 
-App ready to run and deploy in production environments, using the best practices and techniques available in the industry.
+Project configuration with apis and web application ready to run and deploy in production environments, using the best practices and techniques available in the industry.
 
 # Features
 
 - Code linter
 - Code splitting
 - Server side rendering
-- Toggle to dark/light theme
 
 # Technologies
 
-- Javascript (React, Node)
+- Javascript (React, Node, Express)
 - CSS (css-in-js using style-jsx-sass)
 - HTML
 
@@ -36,6 +35,10 @@ Generate a bundle with the development version
 
 Generate a bundle with the production version
 
+### `npm start:apis`
+
+Runs the apis in development mode. Open [http://localhost:3000](http://localhost:3000)
+
 ### `npm start`
 
-Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000)
+Runs the apis and web application in development mode. Open [http://localhost:3000](http://localhost:3000)
