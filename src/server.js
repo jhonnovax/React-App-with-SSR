@@ -1,10 +1,12 @@
 import express from 'express';
+import routes from './apis/routes';
 
 const expressApp = express();
 const isDev = process.env.NODE_ENV !== 'production';
 
 expressApp.use(require('cors')({ origin: true }));
 expressApp.use(express.static(isDev ? 'dist/public' : './public'));
+expressApp.use(routes);
 
 expressApp.use('*', async (req, res) => {
   try {  

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "New ways to learn",
+    "image": "https://unsplash.it/250/250?gravity=center"
+  },
+  {
+    "id": "2",
+    "title": "Best practices to learn",
+    "image": "https://unsplash.it/250/250?gravity=center"
+  },
+  {
+    "id": "3",
+    "title": "Life series",
+    "image": "https://unsplash.it/250/250?gravity=center"
+  },
+  {
+    "id": "4",
+    "title": "New Experiences",
+    "image": "https://unsplash.it/250/250?gravity=center"
+  }
+]
