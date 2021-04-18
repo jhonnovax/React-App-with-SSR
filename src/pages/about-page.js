@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutPage() {
 
   return (
-    <>
+    <main>
       <h1>About us</h1>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -23,15 +23,21 @@ export default function AboutPage() {
         sometimes by accident, sometimes on purpose (injected humour and the like).
       </p>
       <style jsx>{`
-        h1 {
-          font-size: 3.0rem;
-          margin-bottom: 15px;
-        }  
+        main {
+          margin: 0 auto;
+          padding: 15px;
+          max-width: 900px;
 
-        p {
-          margin-bottom: 10px;
+          h1 {
+            font-size: 3.0rem;
+            margin-bottom: 15px;
+          }  
+
+          p {
+            margin-bottom: 10px;
+          }
         }
       `}</style>
-    </>
+    </main>
   );
 }

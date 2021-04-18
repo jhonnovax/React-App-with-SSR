@@ -7,17 +7,8 @@ export default function Layout(props) {
     <>         
       <Header>
       </Header>
-      <main>
-        {props.children}
-      </main>
-      <style jsx>{`
-        main {
-          margin: 0 auto;
-          max-width: 900px;
-          padding: 15px;
-        }  
-      `}</style>
-    </> 
+      {props.children}
+    </>
   );
 
 }

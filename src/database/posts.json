@@ -18,5 +18,15 @@
     "id": "4",
     "title": "New Experiences",
     "image": "https://unsplash.it/250/250?gravity=center"
+  },
+  {
+    "id": "5",
+    "title": "Webinar expectations",
+    "image": "https://unsplash.it/250/250?gravity=center"
+  },
+  {
+    "id": "6",
+    "title": "Trend topics",
+    "image": "https://unsplash.it/250/250?gravity=center"
   }
 ]

@@ -26,7 +26,7 @@ App.getServerData = async ({ path, query }) => {
 
 
 export default function App() {
-
+  
   return (
     <Layout>
       <Switch>

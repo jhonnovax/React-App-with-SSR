@@ -18,6 +18,13 @@ expressApp.use('*', async (req, res) => {
     const { flushToHTML: renderStyledJsx } = await import('styled-jsx/server');
     const path = await import('path');
     const App = (await import('./app')).default;
+    
+    const { props, notFound } = await App.getServerData({ path: req.baseUrl, query: req.query });
+
+    if (notFound) {
+      res.redirect('/404');
+      return;
+    }
 
     const helmetContext = {};  
     const contentComponent = (
@@ -27,19 +34,12 @@ expressApp.use('*', async (req, res) => {
         </StaticRouter>
       </HelmetProvider>
     );
-    
-    const { props, notFound } = await App.getServerData({ path: req.baseUrl, query: req.query });
-
-    if (notFound) {
-      res.redirect('/404');
-      return;
-    }
 
     const isDev = process.env.NODE_ENV !== 'production';
     const statsFile = path.resolve(isDev ? './dist/public' : './public', 'loadable-stats.json');
     const extractor = new ChunkExtractor({ statsFile });
-    const contentJsx = extractor.collectChunks(contentComponent);
-    const contentTags = renderToString(contentJsx);          
+    const appJsx = extractor.collectChunks(contentComponent);
+    const appTags = renderToString(appJsx);          
     const styleTags = renderStyledJsx();
     const { helmet } = helmetContext;
     const html = `
@@ -57,7 +57,7 @@ expressApp.use('*', async (req, res) => {
         </head>
         <body ${helmet.bodyAttributes.toString()}>
           <div id="app">
-            ${contentTags}
+            ${appTags}
           </div>
           <script>window.initialProps=${JSON.stringify(props)}</script>
           ${extractor.getScriptTags()}
