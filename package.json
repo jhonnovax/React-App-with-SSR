@@ -2,6 +2,9 @@
   "name": "react-app",
   "version": "1.0.0",
   "author": "jhonfredynova",
+  "engines": {
+    "node": ">=16.0.0 <17.0.0"
+  },
   "scripts": {
     "build:dev": "webpack --progress --mode development --watch",
     "build:prod": "webpack --progress --mode production",
