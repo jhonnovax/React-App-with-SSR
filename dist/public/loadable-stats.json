@@ -1,6 +1,6 @@
 {
   "name": "browser",
-  "hash": "07d9c5433e44b32f7ca3",
+  "hash": "07fb29b085bf38fa38d9",
   "version": "5.28.0",
   "publicPath": "/",
   "outputPath": "/Users/jnova/Projects/Node-React-SSR/dist/public",
@@ -12,7 +12,7 @@
       "chunk-250dfaef3de730b76858.js"
     ],
     "pages-home-page": [
-      "chunk-d7ad7bfef7cf26540d81.js"
+      "chunk-48c8739b47d662ba5fa4.js"
     ],
     "pages-about-page": [
       "chunk-fae99d421812489edacf.js"
@@ -92,17 +92,17 @@
     },
     {
       "type": "asset",
-      "name": "chunk-d7ad7bfef7cf26540d81.js",
-      "size": 10006,
+      "name": "chunk-48c8739b47d662ba5fa4.js",
+      "size": 10009,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,
       "info": {
         "immutable": true,
-        "contenthash": "d7ad7bfef7cf26540d81",
+        "contenthash": "48c8739b47d662ba5fa4",
         "javascriptModule": false,
         "related": {
-          "sourceMap": "chunk-d7ad7bfef7cf26540d81.js.map"
+          "sourceMap": "chunk-48c8739b47d662ba5fa4.js.map"
         }
       },
       "chunkNames": [
@@ -115,8 +115,8 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "chunk-d7ad7bfef7cf26540d81.js.map",
-          "size": 4212,
+          "name": "chunk-48c8739b47d662ba5fa4.js.map",
+          "size": 4260,
           "emitted": false,
           "comparedForEmit": false,
           "cached": true,
@@ -314,7 +314,7 @@
       "auxiliaryFiles": [
         "index.js.map"
       ],
-      "hash": "1c6f50565ab19c879b69",
+      "hash": "b1d2126a252e7fabb2cf",
       "childrenByOrder": {},
       "id": "main",
       "siblings": [],
@@ -398,9 +398,9 @@
       "initial": false,
       "entry": false,
       "recorded": false,
-      "size": 7480,
+      "size": 7483,
       "sizes": {
-        "javascript": 7480
+        "javascript": 7483
       },
       "names": [
         "pages-home-page"
@@ -410,12 +410,12 @@
         "main"
       ],
       "files": [
-        "chunk-d7ad7bfef7cf26540d81.js"
+        "chunk-48c8739b47d662ba5fa4.js"
       ],
       "auxiliaryFiles": [
-        "chunk-d7ad7bfef7cf26540d81.js.map"
+        "chunk-48c8739b47d662ba5fa4.js.map"
       ],
-      "hash": "16a407a0c3c39eefd8db",
+      "hash": "8e1d208e52919995ad23",
       "childrenByOrder": {},
       "id": "pages-home-page",
       "siblings": [],
@@ -506,14 +506,14 @@
       ],
       "assets": [
         {
-          "name": "chunk-d7ad7bfef7cf26540d81.js"
+          "name": "chunk-48c8739b47d662ba5fa4.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
       "auxiliaryAssets": [
         {
-          "name": "chunk-d7ad7bfef7cf26540d81.js.map"
+          "name": "chunk-48c8739b47d662ba5fa4.js.map"
         }
       ],
       "filteredAuxiliaryAssets": 0,

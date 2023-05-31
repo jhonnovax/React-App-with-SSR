@@ -45566,7 +45566,7 @@ function valueEqual(a, b) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "chunk-" + {"pages-404":"250dfaef3de730b76858","pages-home-page":"d7ad7bfef7cf26540d81","pages-about-page":"fae99d421812489edacf"}[chunkId] + ".js";
+/******/ 			return "chunk-" + {"pages-404":"250dfaef3de730b76858","pages-home-page":"48c8739b47d662ba5fa4","pages-about-page":"fae99d421812489edacf"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	

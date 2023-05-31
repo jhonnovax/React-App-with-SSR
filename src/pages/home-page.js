@@ -3,7 +3,7 @@ import PostTile from '../components/post-tile';
 
 HomePage.getServerData = async () => {
   const fetch = require('node-fetch');
-  const response = await fetch('http://localhost:3000/api/posts', { method: 'GET' });
+  const response = await fetch(`${process.env.API_URL}/posts`, { method: 'GET' });
   const posts = await response.json();
 
   return {
