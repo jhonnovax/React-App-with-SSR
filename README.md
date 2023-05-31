@@ -1,44 +1,16 @@
-# About
+<h2>About the project</h2>
 
-Project configuration with apis and web application ready to run and deploy in production environments, using the best practices and techniques available in the industry.
+<p><b>Node React SSR</b> is a web app with server side rendering and code splitting.<br/>
 
-# Features
+👉 Live Demo: <a href='https://react-redux-local-storage-jhonnovax.vercel.app' target="_blank">Node React SSR</a>
 
-- Code linter
-- Code splitting
-- Server side rendering
+<h3>Tech Stack:</h3>
 
-# Technologies
-
-- Javascript (React, Node, Express)
-- CSS (css-in-js using style-jsx-sass)
-- HTML
-
-# Tools
-
-- Eslint
-- Webpack
-
-# Scripts
-
-In the project directory, you can run:
-
-### `npm install`
-
-Runs this command to install node dependencies of the project.
-
-### `npm run build:dev`
-
-Generate a bundle with the development version
-
-### `npm run build:prod`
-
-Generate a bundle with the production version
-
-### `npm start:apis`
-
-Runs the apis in development mode. Open [http://localhost:3000](http://localhost:3000)
-
-### `npm start`
-
-Runs the apis and web application in development mode. Open [http://localhost:3000](http://localhost:3000)
+<p align="left">
+	<img src="https://github.com/jhonnovax/jhonnovax/blob/main/assets/html-icon.svg" width="36" height="36" alt="HTML5" />
+	<img src="https://github.com/jhonnovax/jhonnovax/blob/main/assets/css-icon.svg" width="36" height="36" alt="CSS3" />
+	<img src="https://github.com/jhonnovax/jhonnovax/blob/main/assets/javascript-icon.svg" width="36" height="36" alt="JavaScript" />
+	<img src="https://github.com/jhonnovax/jhonnovax/blob/main/assets/node-icon.svg" width="36" height="36" alt="Node" />
+	<img src="https://github.com/jhonnovax/jhonnovax/blob/main/assets/react-icon.svg" width="36" height="36" alt="React" />
+	<img src="https://github.com/jhonnovax/jhonnovax/blob/main/assets/sass-icon.svg" width="36" height="36" alt="SASS" />
+</p>
