@@ -1,7 +1,6 @@
 build
 coverage
 dev
-dist
 service-account.json
 
 firebase-debug.log*
