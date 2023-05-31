@@ -2,7 +2,7 @@
 
 <p><b>Node React SSR</b> is a web app with server side rendering and code splitting.<br/>
 
-👉 Live Demo: <a href='https://react-redux-local-storage-jhonnovax.vercel.app' target="_blank">Node React SSR</a>
+👉 Live Demo: <a href='https://node-react-ssr-jhonnovax.vercel.app' target="_blank">Node React SSR</a>
 
 <h3>Tech Stack:</h3>
 
