@@ -1,0 +1,555 @@
+{
+  "name": "browser",
+  "hash": "a8c0953825d56309bcb0",
+  "version": "5.28.0",
+  "publicPath": "/",
+  "outputPath": "/Users/jnova/Desktop/Node-React-SSR/dist/public",
+  "assetsByChunkName": {
+    "main": [
+      "index.js"
+    ],
+    "pages-404": [
+      "chunk-e86693f9976470bde6b5.js"
+    ],
+    "pages-home-page": [
+      "chunk-b23fe1179f1ed0237589.js"
+    ],
+    "pages-about-page": [
+      "chunk-98427b52d0cb6c939a6b.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "index.js",
+      "size": 1617838,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "index.js.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "index.js.map",
+          "size": 1709727,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "main"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "main"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "favicon.png",
+      "size": 24042,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/favicon.png"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "chunk-b23fe1179f1ed0237589.js",
+      "size": 9999,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "b23fe1179f1ed0237589",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "chunk-b23fe1179f1ed0237589.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-home-page"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "chunk-b23fe1179f1ed0237589.js.map",
+          "size": 4260,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "pages-home-page"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "pages-home-page"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "pages-home-page"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "chunk-98427b52d0cb6c939a6b.js",
+      "size": 5817,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "98427b52d0cb6c939a6b",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "chunk-98427b52d0cb6c939a6b.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-about-page"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "chunk-98427b52d0cb6c939a6b.js.map",
+          "size": 2150,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "pages-about-page"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "pages-about-page"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "pages-about-page"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "chunk-e86693f9976470bde6b5.js",
+      "size": 2825,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "e86693f9976470bde6b5",
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "chunk-e86693f9976470bde6b5.js.map"
+        }
+      },
+      "chunkNames": [
+        "pages-404"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "chunk-e86693f9976470bde6b5.js.map",
+          "size": 776,
+          "emitted": false,
+          "comparedForEmit": false,
+          "cached": true,
+          "info": {
+            "development": true
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "pages-404"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": {},
+          "chunks": [],
+          "auxiliaryChunks": [
+            "pages-404"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "pages-404"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "sitemap.xml",
+      "size": 519,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/sitemap.xml"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "robots.txt",
+      "size": 54,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "src/public/robots.txt"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 1406544,
+      "sizes": {
+        "javascript": 1400204,
+        "runtime": 6340
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "auxiliaryFiles": [
+        "index.js.map"
+      ],
+      "hash": "56791ce2b9afce707771",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "pages-404",
+        "pages-about-page",
+        "pages-home-page"
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1899,
+      "sizes": {
+        "javascript": 1899
+      },
+      "names": [
+        "pages-404"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "chunk-e86693f9976470bde6b5.js"
+      ],
+      "auxiliaryFiles": [
+        "chunk-e86693f9976470bde6b5.js.map"
+      ],
+      "hash": "ac85b47838d8f35866a5",
+      "childrenByOrder": {},
+      "id": "pages-404",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 4797,
+      "sizes": {
+        "javascript": 4797
+      },
+      "names": [
+        "pages-about-page"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "chunk-98427b52d0cb6c939a6b.js"
+      ],
+      "auxiliaryFiles": [
+        "chunk-98427b52d0cb6c939a6b.js.map"
+      ],
+      "hash": "cf8334a1c76193898034",
+      "childrenByOrder": {},
+      "id": "pages-about-page",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 7473,
+      "sizes": {
+        "javascript": 7473
+      },
+      "names": [
+        "pages-home-page"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "chunk-b23fe1179f1ed0237589.js"
+      ],
+      "auxiliaryFiles": [
+        "chunk-b23fe1179f1ed0237589.js.map"
+      ],
+      "hash": "251dede5c0c05305ca7c",
+      "childrenByOrder": {},
+      "id": "pages-home-page",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "index.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "index.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "index.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "index.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-404": {
+      "name": "pages-404",
+      "chunks": [
+        "pages-404"
+      ],
+      "assets": [
+        {
+          "name": "chunk-e86693f9976470bde6b5.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "chunk-e86693f9976470bde6b5.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-home-page": {
+      "name": "pages-home-page",
+      "chunks": [
+        "pages-home-page"
+      ],
+      "assets": [
+        {
+          "name": "chunk-b23fe1179f1ed0237589.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "chunk-b23fe1179f1ed0237589.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-about-page": {
+      "name": "pages-about-page",
+      "chunks": [
+        "pages-about-page"
+      ],
+      "assets": [
+        {
+          "name": "chunk-98427b52d0cb6c939a6b.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [
+        {
+          "name": "chunk-98427b52d0cb6c939a6b.js.map"
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [],
+  "generator": "loadable-components"
+}

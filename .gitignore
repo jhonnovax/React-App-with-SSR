@@ -1,5 +1,4 @@
 build
-dist
 coverage
 dev
 service-account.json

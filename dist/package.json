@@ -1,0 +1,53 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "author": "jhonfredynova",
+  "engines": {
+    "node": ">=16.0.0 <17.0.0"
+  },
+  "scripts": {
+    "build:dev": "webpack --progress --mode development --watch",
+    "build:prod": "webpack --progress --mode production",
+    "start:apis": "nodemon --inspect ./dist/index.js",
+    "start": "npm-run-all --parallel build:dev start:apis"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@loadable/component": "^5.14.1",
+    "@loadable/server": "^5.14.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet-async": "^1.0.9",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "styled-jsx": "^3.4.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.12.13",
+    "@loadable/babel-plugin": "^5.13.2",
+    "@loadable/webpack-plugin": "^5.14.2",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "copy-webpack-plugin": "^8.1.0",
+    "eslint": "^7.22.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-react": "^7.23.1",
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "styled-jsx-plugin-sass": "^1.0.0",
+    "webpack": "^5.28.0",
+    "webpack-bundle-analyzer": "^4.4.0",
+    "webpack-clean-dist-plugin": "^0.1.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}

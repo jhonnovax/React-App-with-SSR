@@ -1,0 +1,429 @@
+{
+  "name": "server",
+  "hash": "f153ae881e9adf50b0c3",
+  "version": "5.28.0",
+  "publicPath": "/",
+  "outputPath": "/Users/jnova/Desktop/Node-React-SSR/dist",
+  "assetsByChunkName": {
+    "main": [
+      "index.js"
+    ],
+    "pages-404": [
+      "chunk-d5e7b65fe6226f74c867.js"
+    ],
+    "pages-home-page": [
+      "chunk-45fde9067f9fd15ae2d7.js"
+    ],
+    "pages-about-page": [
+      "chunk-230b0cc43108809529c8.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "index.js",
+      "size": 41527,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "chunk-a0ece24e956e0444fd9f.js",
+      "size": 25475,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "a0ece24e956e0444fd9f",
+        "javascriptModule": false
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "src_app_js"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "chunk-45fde9067f9fd15ae2d7.js",
+      "size": 14091,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "45fde9067f9fd15ae2d7",
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "pages-home-page"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "pages-home-page"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "chunk-230b0cc43108809529c8.js",
+      "size": 8997,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "230b0cc43108809529c8",
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "pages-about-page"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "pages-about-page"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "chunk-d5e7b65fe6226f74c867.js",
+      "size": 4146,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "contenthash": "d5e7b65fe6226f74c867",
+        "javascriptModule": false
+      },
+      "chunkNames": [
+        "pages-404"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        "pages-404"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "package.json",
+      "size": 1591,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "copied": true,
+        "sourceFilename": "package.json"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 11187,
+      "sizes": {
+        "javascript": 7519,
+        "runtime": 3668
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "4b07cf77684a1a225502",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "src_app_js"
+      ],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 1899,
+      "sizes": {
+        "javascript": 1899
+      },
+      "names": [
+        "pages-404"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "chunk-d5e7b65fe6226f74c867.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "e00bbc8703a29bcc02b5",
+      "childrenByOrder": {},
+      "id": "pages-404",
+      "siblings": [],
+      "parents": [
+        "src_app_js"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 4797,
+      "sizes": {
+        "javascript": 4797
+      },
+      "names": [
+        "pages-about-page"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "chunk-230b0cc43108809529c8.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "80fda79f21da0e99b7d6",
+      "childrenByOrder": {},
+      "id": "pages-about-page",
+      "siblings": [],
+      "parents": [
+        "src_app_js"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 6741,
+      "sizes": {
+        "javascript": 6741
+      },
+      "names": [
+        "pages-home-page"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "chunk-45fde9067f9fd15ae2d7.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "5efda6019ac12ca094f7",
+      "childrenByOrder": {},
+      "id": "pages-home-page",
+      "siblings": [],
+      "parents": [
+        "src_app_js"
+      ],
+      "children": [],
+      "modules": [],
+      "origins": []
+    },
+    {
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "size": 12004,
+      "sizes": {
+        "javascript": 12004
+      },
+      "names": [],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "chunk-a0ece24e956e0444fd9f.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "a530f24c5078cd91fcf3",
+      "childrenByOrder": {},
+      "id": "src_app_js",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [
+        "pages-404",
+        "pages-about-page",
+        "pages-home-page"
+      ],
+      "modules": [],
+      "origins": []
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "index.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "index.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-404": {
+      "name": "pages-404",
+      "chunks": [
+        "pages-404"
+      ],
+      "assets": [
+        {
+          "name": "chunk-d5e7b65fe6226f74c867.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-home-page": {
+      "name": "pages-home-page",
+      "chunks": [
+        "pages-home-page"
+      ],
+      "assets": [
+        {
+          "name": "chunk-45fde9067f9fd15ae2d7.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    },
+    "pages-about-page": {
+      "name": "pages-about-page",
+      "chunks": [
+        "pages-about-page"
+      ],
+      "assets": [
+        {
+          "name": "chunk-230b0cc43108809529c8.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [],
+  "generator": "loadable-components"
+}
