@@ -2,14 +2,14 @@
 	"buildCommand": "npm run build:prod",
 	"builds": [
 		{
-			"src": "dist/index.js",
+			"src": "./dist/index.js",
 			"use": "@now/node"
 		}
 	],
 	"routes": [
 		{
 			"src": "/(.*)",
-			"dest": "dist/index.js"
+			"dest": "./dist/index.js"
 		}
 	]
 }
