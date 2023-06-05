@@ -3,9 +3,12 @@
 	"builds": [
 		{
 			"src": "./dist/index.js",
-			"use": "@now/node"
+			"use": "@vercel/node"
 		}
 	],
+	"env": {
+		"API_URL": "https://node-react-ssr-jhonnovax.vercel.app/api"
+	},
 	"routes": [
 		{
 			"src": "/(.*)",
