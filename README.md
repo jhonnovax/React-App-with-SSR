@@ -1,8 +1,6 @@
 <h2>About the project</h2>
 
-<p><b>Node React SSR</b> is a web app with server side rendering and code splitting.<br/>
-
-👉 Live Demo: <a href='https://node-react-ssr-jhonnovax.vercel.app' target="_blank">Node React SSR</a>
+<p>Web application with server side rendering and code splitting.<br/>
 
 <h3>Tech Stack:</h3>
 
